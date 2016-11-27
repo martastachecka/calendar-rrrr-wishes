@@ -5,7 +5,7 @@
 .day-details-wrapper {
   width: 500px;
   float: left;
-  padding-left: 50px;
+  padding-left: 0px;
 }
 
 .calendar-wrapper {
@@ -163,4 +163,26 @@
 .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
   color: #FFF;
   background-color: #4A90E2;
+}
+
+.single-event{
+  -webkit-box-shadow: -4px 11px 36px -5px rgba(128,124,128,0.52);
+  -moz-box-shadow: -4px 11px 36px -5px rgba(128,124,128,0.52);
+  box-shadow: -4px 11px 36px -5px rgba(128,124,128,0.52);
+  background-color: #324bad;
+color:white;
+  padding:40px;
+  margin-bottom:20px;
+}
+.form-row .button{
+  background-color:#3D6DE4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

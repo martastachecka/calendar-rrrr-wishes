@@ -15,7 +15,7 @@ const SingleEvent = ({ eventData, changeMadeWishes }) => (
 	<div className="single-event">
 		<p>Title: {eventData.title}</p>
 		<p>Type: {eventData.type}</p>
-		<p>description: {eventData.description}</p>
+		<p>Description: {eventData.description}</p>
 		<p>Made wishes?: 
 			<input
 				type="checkbox"
