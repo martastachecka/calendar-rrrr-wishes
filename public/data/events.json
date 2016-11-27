@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Urodziny Adama",
+    "date": "2016-11-26",
+    "description": "Foobar",
+    "type": "birthday",
+    "madeWishes": false
+  },
+  {
+    "id": 2,
+    "title": "Urodziny Jana",
+    "date": "2016-11-26",
+    "description": "Foobar",
+    "type": "birthday",
+    "madeWishes": false
+  },
+  {
+    "id": 3,
+    "title": "Urodziny Tomka",
+    "date": "2016-11-24",
+    "description": "Foobar",
+    "type": "birthday",
+    "madeWishes": false
+  }
+]

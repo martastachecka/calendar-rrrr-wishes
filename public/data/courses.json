@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "JFDD1",
+        "studentIds": [1, 2]
+    },
+    {
+        "id": 2,
+        "name": "JFDD2",
+        "studentIds": [1, 2, 3]
+    },
+    {
+        "id": 3,
+        "name": "JFDD3",
+        "studentIds": [2]
+    },
+    {
+        "id": 4,
+        "name": "JFDD4",
+        "studentIds": [1, 2, 3, 4]
+    }
+]
