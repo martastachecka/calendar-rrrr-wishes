@@ -2,12 +2,12 @@ import React from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import { IndexLink } from 'react-router'
 import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap'
-
+import './navbar.css';
 export default (props) => (
     <Navbar>
         <Navbar.Header>
         <Navbar.Brand>
-            <IndexLink to="/">React-Bootstrap</IndexLink>
+            <IndexLink to="/">Wishes Calendar</IndexLink>
         </Navbar.Brand>
         </Navbar.Header>
         <Nav>

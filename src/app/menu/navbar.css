@@ -1,0 +1,10 @@
+.navbar .container{
+    background-color:white;
+    border-style:none;
+}
+.navbar a{
+    font-family:"Montserrat", sans-serif;
+    color:#4169E1;
+    font-size:15px;
+    font-weight:400;
+}
