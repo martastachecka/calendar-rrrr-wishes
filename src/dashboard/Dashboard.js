@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import BigCalendar from 'react-big-calendar';
+
 import moment from 'moment-timezone';
 moment.tz.setDefault('Europe/Warsaw');
 window.moment = moment;
@@ -16,11 +16,11 @@ import DayDetails from './DayDetails';
 import { showNotification } from './notifications';
 
 import './Dashboard.css';
-
+/*
 BigCalendar.setLocalizer(
   BigCalendar.momentLocalizer(moment)
 );
-
+*/
 const Dashboard = (props) => {
   return (
     <div>
