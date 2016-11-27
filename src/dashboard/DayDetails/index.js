@@ -13,10 +13,10 @@ const getDayNumber = (now) => {
 
 const SingleEvent = ({ eventData, changeMadeWishes }) => (
 	<div className="single-event">
-		<p>Title: {eventData.title}</p>
-		<p>Type: {eventData.type}</p>
-		<p>Description: {eventData.description}</p>
-		<p>Made wishes?: 
+		<p><span>Title:</span> {eventData.title}</p>
+		<p><span>Type:</span> {eventData.type}</p>
+		<p><span>Description:</span> {eventData.description}</p>
+		<p><span>Made wishes?: </span>
 			<input
 				type="checkbox"
 				defaultChecked={eventData.madeWishes}
@@ -32,11 +32,9 @@ const SingleEvent = ({ eventData, changeMadeWishes }) => (
 const DayDetails = ({ currentDay, events, onAdd, changeMadeWishes, sunriseSunset }) => (
 	<div className="day-details">
 		<h2>Day: {moment(currentDay, 'YYYY-MM-DD').format('MMMM Do YYYY')}</h2>
-		<p>Number: {getDayNumber(moment(currentDay, 'YYYY-MM-DD').toDate())}</p>
-		<p>Sunrise: {sunriseSunset.sunrise}</p>
-		<p>Sunset: {sunriseSunset.sunset}</p>
+		<p>Day number: {getDayNumber(moment(currentDay, 'YYYY-MM-DD').toDate())},  Sunrise: {sunriseSunset.sunrise},  Sunset: {sunriseSunset.sunset}</p>
 		<h3>Name day:</h3>
-		{nameDay['day_' + moment(currentDay, 'YYYY-MM-DD').format('DDMM')]}
+		<p>{nameDay['day_' + moment(currentDay, 'YYYY-MM-DD').format('DDMM')]}</p>
 		<h3>Events:</h3>
 		{events.map(i => (
 			<SingleEvent

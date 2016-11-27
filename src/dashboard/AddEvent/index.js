@@ -73,7 +73,7 @@ class EventDetails extends Component {
           </select>
         </div>
         <div className="form-row">
-          <button type="submit" class="button" value="Input Button">Add event</button>
+          <button type="submit" class="add-event" value="Input Button">Add event</button>
         </div>
       </form>
     );

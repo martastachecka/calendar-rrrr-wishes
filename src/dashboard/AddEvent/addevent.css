@@ -1,12 +1,87 @@
-.form-row .button{
-    background-color:#3D6DE4;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+
+.event-details{
+    -webkit-box-shadow: -4px 11px 36px -5px rgba(128,124,128,0.52);
+    -moz-box-shadow: -4px 11px 36px -5px rgba(128,124,128,0.52);
+    box-shadow: -4px 11px 36px -5px rgba(128,124,128,0.52);
+    background-color: #ffffff;
+    color: #2e2e2f;
+    padding:40px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+.day-details{
+    background-color:white;
+   padding:50px;
+}
+.day-details h3 {
+    color:royalblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:22px;
+    padding-top:20px;
+    padding-bottom:5px;
+    padding-left:5px;
+
+}
+.day-details h2 {
+    color:royalblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:24px;
+    padding-bottom:5px;
+    padding-left:5px;
+
+}
+.event-details label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:14px;
+    padding-right:10px;
+
+}
+.day-details p{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    padding-left:5px;
+}
+.day-details button{
+    margin-top:20px;
+    background-color:royalblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color:white;
+    padding:10px;
+    width:150px;
+    border-style:none;
+    box-shadow: -4px 11px 36px -5px rgba(128,124,128,0.52);
+}
+.day-details-wrapper button{
+    margin-top:20px;
+    background-color:royalblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color:white;
+    padding:10px;
+    width:250px;
+    border-style:none;
+    box-shadow: -4px 11px 36px -5px rgba(128,124,128,0.52);
+}
+
+.event-details .form-row{
+    padding-bottom:10px;
+}
+#title, #description {
+    border-style: solid;
+    border-color:lightgrey;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+#type{
+    border-style: solid;
+    border-color:lightgrey;
+    background-color:white;
 }
