@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import UserList from './UserList';
+import './userstyle.css';
 
 const Users = ({ userList }) => (
     <div>
